@@ -41,3 +41,12 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada
 }
+
+function btnCopiar() {
+    let copyText = document.getElementById("mensaje");
+  
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+  
+    navigator.clipboard.writeText(copyText.value);
+  }
