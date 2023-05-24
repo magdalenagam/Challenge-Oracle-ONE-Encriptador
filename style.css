@@ -23,6 +23,7 @@ main{
 	color: #0a3871;
 	margin-top: 90px;
 	text-transform: lowercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ::placeholder {color: #0a3871;}
@@ -35,6 +36,7 @@ main{
 	background: white;
 	background-image: url("/imagenes/Muneco.png");
 	background-repeat: no-repeat;
+	background-position: 35px 170px;
 	border: none;
 	border-radius: 24px;
 	color: #0a3871;
@@ -92,4 +94,10 @@ main{
 .informacion{
 	color: #495057;
 	font-size: 18px;
+}
+
+.desarrollador{
+	color: #0a3871;
+	font-size: 19px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
